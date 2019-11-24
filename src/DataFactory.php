@@ -23,4 +23,8 @@ class DataFactory
         $table .= "</table>";
         return $table;
     }
+
+    function tojson($data){
+        return json_encode($data);
+    }
 }
